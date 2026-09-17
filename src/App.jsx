@@ -5,6 +5,7 @@ import cv from "./assets/CV.pdf";
 function App() {
   return (
     <div>
+
       {/* NAVBAR */}
       <nav>
         <h2>Salman Sami</h2>
@@ -18,9 +19,11 @@ function App() {
         </div>
       </nav>
 
+
       {/* HOME */}
       <section id="home">
         <div className="hero-content">
+
           <img src={profile} alt="Salman Sami" />
 
           <p className="intro">HELLO, I'M</p>
@@ -35,6 +38,7 @@ function App() {
           </p>
 
           <div className="hero-buttons">
+
             <a href="#projects" className="primary-btn">
               View My Work
             </a>
@@ -50,14 +54,19 @@ function App() {
             >
               Download CV
             </a>
+
           </div>
         </div>
       </section>
 
+
       {/* ABOUT */}
       <section id="about">
+
         <div className="about-content">
+
           <div className="about-text">
+
             <p className="intro">ABOUT ME</p>
 
             <h2>Building Digital Solutions With Code</h2>
@@ -76,9 +85,12 @@ function App() {
             <a href="#contact" className="primary-btn">
               Let's Work Together
             </a>
+
           </div>
 
+
           <div className="about-box">
+
             <div>
               <h3>Software Engineer</h3>
               <p>Web & Backend Development</p>
@@ -93,12 +105,17 @@ function App() {
               <h3>Always Learning</h3>
               <p>Exploring modern technologies</p>
             </div>
+
           </div>
+
         </div>
+
       </section>
+
 
       {/* SKILLS */}
       <section id="skills">
+
         <h2>My Skills</h2>
 
         <p className="section-description">
@@ -106,40 +123,57 @@ function App() {
         </p>
 
         <div className="skills-grid">
+
           <div className="skill-card">
             <h3>React</h3>
-            <p>Building modern and responsive user interfaces.</p>
+            <p>
+              Building modern and responsive user interfaces.
+            </p>
           </div>
 
           <div className="skill-card">
             <h3>JavaScript</h3>
-            <p>Creating interactive and dynamic web applications.</p>
+            <p>
+              Creating interactive and dynamic web applications.
+            </p>
           </div>
 
           <div className="skill-card">
             <h3>Python</h3>
-            <p>Backend development, automation and programming.</p>
+            <p>
+              Backend development, automation and programming.
+            </p>
           </div>
 
           <div className="skill-card">
             <h3>FastAPI</h3>
-            <p>Building fast and scalable REST APIs.</p>
+            <p>
+              Building fast and scalable REST APIs.
+            </p>
           </div>
 
           <div className="skill-card">
             <h3>MySQL</h3>
-            <p>Managing and working with relational databases.</p>
+            <p>
+              Managing and working with relational databases.
+            </p>
           </div>
 
           <div className="skill-card">
             <h3>Git & GitHub</h3>
-            <p>Version control and professional development workflow.</p>
+            <p>
+              Version control and professional development workflow.
+            </p>
           </div>
+
         </div>
+
       </section>
+
 
       {/* PROJECTS */}
       <section id="projects">
+
         <h2>My Projects</h2>
 
         <p className="section-description">
@@ -147,10 +181,18 @@ function App() {
         </p>
 
         <div className="projects-grid">
-          <div className="project-card">
-            <div className="project-number">01</div>
 
-            <h3>TruthLens</h3>
+
+          {/* TRUTHLENS */}
+          <div className="project-card">
+
+            <div className="project-number">
+              01
+            </div>
+
+            <h3>
+              TruthLens
+            </h3>
 
             <p>
               An AI-powered fake news detection and verification platform
@@ -164,12 +206,38 @@ function App() {
               <span>MySQL</span>
               <span>AI</span>
             </div>
+
+            <div className="project-links">
+
+              <a
+                href="#"
+                className="project-btn"
+              >
+                Live Demo
+              </a>
+
+              <a
+                href="#"
+                className="project-btn secondary-project-btn"
+              >
+                GitHub
+              </a>
+
+            </div>
+
           </div>
 
-          <div className="project-card">
-            <div className="project-number">02</div>
 
-            <h3>SmartOps</h3>
+          {/* SMARTOPS */}
+          <div className="project-card">
+
+            <div className="project-number">
+              02
+            </div>
+
+            <h3>
+              SmartOps
+            </h3>
 
             <p>
               An AI-powered employee task and workflow management system
@@ -182,12 +250,38 @@ function App() {
               <span>PostgreSQL</span>
               <span>AI</span>
             </div>
+
+            <div className="project-links">
+
+              <a
+                href="#"
+                className="project-btn"
+              >
+                Live Demo
+              </a>
+
+              <a
+                href="#"
+                className="project-btn secondary-project-btn"
+              >
+                GitHub
+              </a>
+
+            </div>
+
           </div>
 
-          <div className="project-card">
-            <div className="project-number">03</div>
 
-            <h3>React Web Projects</h3>
+          {/* REACT WEB PROJECTS */}
+          <div className="project-card">
+
+            <div className="project-number">
+              03
+            </div>
+
+            <h3>
+              React Web Projects
+            </h3>
 
             <p>
               Modern responsive web applications built with React,
@@ -199,25 +293,57 @@ function App() {
               <span>JavaScript</span>
               <span>CSS</span>
             </div>
+
+            <div className="project-links">
+
+              <a
+                href="#"
+                className="project-btn"
+              >
+                Live Demo
+              </a>
+
+              <a
+                href="#"
+                className="project-btn secondary-project-btn"
+              >
+                GitHub
+              </a>
+
+            </div>
+
           </div>
+
         </div>
+
       </section>
+
 
       {/* CONTACT */}
       <section id="contact">
-        <div className="contact-content">
-          <div className="contact-text">
-            <p className="intro">CONTACT</p>
 
-            <h2>Let's Build Something Together</h2>
+        <div className="contact-content">
+
+          <div className="contact-text">
+
+            <p className="intro">
+              CONTACT
+            </p>
+
+            <h2>
+              Let's Build Something Together
+            </h2>
 
             <p>
               Have a project idea or want to work together?
               Feel free to get in touch.
             </p>
+
           </div>
 
+
           <div className="contact-card">
+
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=salman55667ff@gmail.com"
               target="_blank"
@@ -225,8 +351,12 @@ function App() {
               className="contact-item"
             >
               <span>Email</span>
-              <strong>salman55667ff@gmail.com</strong>
+
+              <strong>
+                salman55667ff@gmail.com
+              </strong>
             </a>
+
 
             <a
               href="https://github.com/salman55667ff-ui"
@@ -235,8 +365,12 @@ function App() {
               rel="noreferrer"
             >
               <span>GitHub</span>
-              <strong>View GitHub Profile</strong>
+
+              <strong>
+                View GitHub Profile
+              </strong>
             </a>
+
 
             <a
               href="https://www.linkedin.com/in/salman-sami-517797371"
@@ -245,16 +379,28 @@ function App() {
               rel="noreferrer"
             >
               <span>LinkedIn</span>
-              <strong>View LinkedIn Profile</strong>
+
+              <strong>
+                View LinkedIn Profile
+              </strong>
             </a>
+
           </div>
+
         </div>
+
       </section>
+
 
       {/* FOOTER */}
       <footer>
-        <p>© 2026 Salman Sami. All rights reserved.</p>
+
+        <p>
+          © 2026 Salman Sami. All rights reserved.
+        </p>
+
       </footer>
+
     </div>
   )
 }
