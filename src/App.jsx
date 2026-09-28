@@ -1,3 +1,4 @@
+
 import './App.css'
 import profile from "./assets/hero.png";
 import cv from "./assets/CV.pdf";
@@ -254,15 +255,19 @@ function App() {
             <div className="project-links">
 
               <a
-                href="#"
+                href="https://smart-ops-nine.vercel.app/"
                 className="project-btn"
+                target="_blank"
+                rel="noreferrer"
               >
                 Live Demo
               </a>
 
               <a
-                href="#"
+                href="https://github.com/salman55667ff-ui/SmartOps"
                 className="project-btn secondary-project-btn"
+                target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
@@ -345,7 +350,7 @@ function App() {
           <div className="contact-card">
 
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=salman55667ff@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=salman55667@gmail.com"
               target="_blank"
               rel="noreferrer"
               className="contact-item"
@@ -353,7 +358,7 @@ function App() {
               <span>Email</span>
 
               <strong>
-                salman55667ff@gmail.com
+                salman55667@gmail.com
               </strong>
             </a>
 
@@ -406,3 +411,4 @@ function App() {
 }
 
 export default App
+
